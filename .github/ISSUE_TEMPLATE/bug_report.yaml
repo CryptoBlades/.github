@@ -20,14 +20,14 @@ body:
     description: Any contact details for the finder of the bug should more information be required (Discord preferred).
   validations:
     required: false
-- type: textarea
+- type: dropdown
   attributes:
     label: What does this bug relate to
-    value: |
-        - Design Issues:
-        - Missing Features:
-        - Incorrect Data:
-        - None of the above:
+    options:
+      - Design Issues
+      - Missing Features
+      - Incorrect Data
+      - None of the above
   validations:
     required: true
 - type: textarea
@@ -58,27 +58,27 @@ body:
         - Then error x should be present
   validations:
     required: true
-- type: textarea
+- type: dropdown
   attributes:
     label: Device
-    value: |
-        - PC:
-        - Mobile:
-        - Other:
+    options:
+        - PC
+        - Mobile
+        - Other
   validations:
     required: true  
-- type: textarea
+- type: dropdown
   attributes:
     label: Browser
-    value: |
-        - Chrome:
-        - Safari:
-        - Metamask:
-        - Kiwi:
-        - Firefox:
-        - Brave:
-        - Edge:
-        - Other:
+    options:
+      - Chrome
+      - Safari
+      - Metamask
+      - Kiwi
+      - Firefox
+      - Brave
+      - Edge
+      - Other
   validations:
     required: true        
 - type: textarea
