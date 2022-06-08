@@ -1,7 +1,7 @@
 name: Feature request
-about: Suggest an idea for this project
+description: Suggest an idea for this project
 title: "[Feature] - "
-labels: documentation, enhancement
+labels: [documentation, enhancement]
 body:
 - type: checkboxes
   attributes:
@@ -30,12 +30,12 @@ body:
     description: A list of any potential blockers for this feature with linked issues.
   validations:
     required: true
- - type: textarea
+- type: textarea
   attributes:
     label: Describe alternatives you've considered
     description: A clear and concise description of any alternative solutions or features you've considered.
   validations:
-    required: true
+    required: true    
 - type: textarea
   attributes:
     label: Additional context
